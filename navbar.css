@@ -1,0 +1,17 @@
+.navbar-logo {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.navbar-logo div {
+  display: flex;
+  align-items: center;
+}
+.navbar-logo div img {
+  margin-right: 4px;
+}
+.navbar-logo div .logo {
+  width: 120px;
+}
+
+/*# sourceMappingURL=navbar.css.map */

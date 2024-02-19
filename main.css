@@ -1,0 +1,288 @@
+body {
+  margin: 0px;
+}
+
+.container {
+  margin-inline: 50px;
+}
+
+hr {
+  margin: 50px;
+  color: grey;
+}
+
+header {
+  box-shadow: rgba(50, 50, 93, 0.2509803922) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+  height: 70px;
+}
+
+nav.navbar {
+  margin-top: 20px;
+}
+
+.navbar-logo {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.navbar-logo div {
+  display: flex;
+  align-items: center;
+}
+.navbar-logo div img {
+  margin-right: 4px;
+}
+.navbar-logo div .logo {
+  width: 120px;
+}
+
+.hotellocation span {
+  color: #db9797;
+}
+
+.navbar-logo {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.navbar-logo div {
+  display: flex;
+  align-items: center;
+}
+.navbar-logo div img {
+  margin-right: 4px;
+}
+.navbar-logo div .logo {
+  width: 120px;
+}
+.hotellocation .hotelimage{
+  display: flex;
+}
+.hotellocation span {
+  color: #db9797;
+}
+.hotelimage > div:nth-child(1) > img {
+  width: 100%;
+  height: 100%;
+}
+.hotelimage > div:nth-child(2) {
+  display: flex;
+  flex-wrap: wrap;
+}
+.hotelimage > div:nth-child(2) > img {
+  width: 50%;
+  height: 50%;
+}
+
+.hotelimage > div {
+  width: 50%;
+}
+
+.hotelrating {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.hotelrating div {
+  display: flex;
+  align-items: center;
+}
+
+.rate {
+  font-size: 30px;
+}
+
+.hotelrating2 {
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.hotelrating4 span {
+  border-bottom: 1px solid black;
+}
+.hotelrating4 strong {
+  padding-right: 4px;
+}
+
+.review1 {
+  display: flex;
+  margin-bottom: 50px;
+}
+
+.review {
+  display: flex;
+  flex-direction: column;
+  width: 100px;
+  height: 100px;
+  border-radius: 10px;
+  background: #aecae3;
+  margin-top: 20px;
+}
+.review .span1 {
+  font-size: 38px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+}
+.review img {
+  width: 100px;
+}
+
+.span2 {
+  margin-left: 10px;
+  font-weight: 600;
+}
+
+.span4 {
+  margin-left: 10px;
+}
+
+.reviewgap {
+  margin-left: 10px;
+}
+
+.hotelimage2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 100px;
+  border-bottom: 1px solid black;
+  margin-bottom: 20px;
+}
+.hotelimage2 > div {
+  display: flex;
+  align-items: center;
+}
+.hotelimage2 > div :nth-child(1) {
+  width: 23%;
+  justify-content: space-between;
+}
+.hotelimage2 > div img {
+  border-radius: 10px;
+}
+.hotelimage2 > div :nth-child(2) {
+  width: 15%;
+  justify-content: space-between;
+}
+.hotelimage2 button {
+  background-color: #0074cc;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+.hotelimage2 span {
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.review-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  margin: 20px;
+  border: 1px solid #ccc;
+  padding: 10px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+.review-image {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+
+.review-text {
+  font-size: 16px;
+  line-height: 1.4;
+  margin-bottom: 10px;
+}
+
+.flag-icon {
+  font-size: 24px;
+  color: #f00;
+}
+
+.email {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  background-color: #aecae3;
+}
+.email input[type=email] {
+  margin: 10px;
+}
+.email button {
+  background-color: #0074cc;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+.email h1 {
+  font-size: 24px;
+}
+.email h4 {
+  font-size: 18px;
+  color: #888;
+}
+.email p {
+  font-size: 16px;
+  color: #555;
+}
+
+footer {
+  display: flex;
+  justify-content: space-around;
+  background-color: #333;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.footer-logo {
+  width: 80px;
+  height: 80px;
+  margin-top: 40px;
+}
+
+.social-media {
+  margin-top: 20px;
+}
+.social-media a {
+  display: inline-block;
+  margin: 0 10px;
+  font-size: 24px;
+  color: #fff;
+  text-decoration: none;
+}
+
+.footer-list {
+  list-style: none;
+  padding: 0;
+  margin: 20px;
+}
+.footer-list li {
+  margin-bottom: 5px;
+}
+
+.link-color {
+  color: #f8f8ff;
+}
+
+
+.teal-button {
+  background-color: #008080; /* Teal color */
+  color: #fff; /* Text color */
+  padding: 10px 20px; /* Adjust padding as needed */
+  border: none;
+  border-radius: 5px; /* Rounded corners */
+  cursor: pointer;
+  font-size: 16px; /* Adjust font size as needed */
+}
+
+.teal-button:hover {
+  background-color: #006666; /* Darker teal color on hover */
+}

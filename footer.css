@@ -1,0 +1,40 @@
+footer {
+  display: flex;
+  justify-content: space-around;
+  background-color: #333;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.footer-logo {
+  width: 80px;
+  height: 80px;
+  margin-top: 40px;
+}
+
+.social-media {
+  margin-top: 20px;
+}
+.social-media a {
+  display: inline-block;
+  margin: 0 10px;
+  font-size: 24px;
+  color: #fff;
+  text-decoration: none;
+}
+
+.footer-list {
+  list-style: none;
+  padding: 0;
+  margin: 20px;
+}
+.footer-list li {
+  margin-bottom: 5px;
+}
+
+.link-color {
+  color: #f8f8ff;
+}
+
+/*# sourceMappingURL=footer.css.map */

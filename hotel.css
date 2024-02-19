@@ -1,0 +1,108 @@
+.hotellocation span {
+  color: #db9797;
+}
+
+.hotelimage, .hotelrating, .hotellocation > .hotelrating > div:nth-child(2), .hotellocation > .hotelimage > div:nth-child(2), .hotellocation > .hotelrating.hotellocation > div:nth-child(2) > div:nth-child(2) {
+  display: flex;
+}
+
+.hotelimage > div, .hotelrating > div, .hotellocation > .hotelrating > div:nth-child(2) > div, .hotellocation > .hotelimage > div:nth-child(2) > div, .hotellocation > .hotelrating.hotellocation > div:nth-child(2) > div:nth-child(2) > div {
+  width: 50%;
+}
+
+.hotellocation > .hotelimage > div:nth-child(2), .hotellocation > .hotelrating > div:nth-child(2), .hotellocation > .hotelrating.hotellocation > div:nth-child(2) > div:nth-child(2), .hotellocation > .hotelimage.hotellocation > div:nth-child(2) > div:nth-child(2), .hotellocation > .hotelrating.hotellocation > div.hotellocation:nth-child(2) > div:nth-child(2) > div:nth-child(2) {
+  flex-wrap: wrap;
+}
+
+.hotellocation > .hotelimage > div:nth-child(1) > img, .hotellocation > .hotelrating > div:nth-child(1) > img, .hotellocation > .hotelrating.hotellocation > div:nth-child(2) > div:nth-child(1) > img, .hotellocation > .hotelimage.hotellocation > div:nth-child(2) > div:nth-child(1) > img, .hotellocation > .hotelrating.hotellocation > div.hotellocation:nth-child(2) > div:nth-child(2) > div:nth-child(1) > img {
+  width: 100%/1;
+  height: 100%/1;
+}
+
+.hotellocation > .hotelimage > div:nth-child(2) > img, .hotellocation > .hotelrating > div:nth-child(2) > img, .hotellocation > .hotelrating.hotellocation > div:nth-child(2) > div:nth-child(2) > img, .hotellocation > .hotelimage.hotellocation > div:nth-child(2) > div:nth-child(2) > img, .hotellocation > .hotelrating.hotellocation > div.hotellocation:nth-child(2) > div:nth-child(2) > div:nth-child(2) > img {
+  width: 100%/2;
+  height: 100%/2;
+}
+
+.hotelrating {
+  align-items: center;
+  justify-content: space-between;
+}
+
+.hotelrating div {
+  display: flex;
+  align-items: center;
+}
+
+.rate {
+  font-size: 30px;
+}
+
+.hotelrating2 {
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.hotelrating4 span {
+  border-bottom: 1px solid black;
+}
+
+.hotelrating4 strong {
+  padding-right: 4px;
+}
+
+.hotelimage2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 100px;
+  border-bottom: 1px solid black;
+  margin-bottom: 20px;
+}
+
+.hotelimage2 > div {
+  display: flex;
+  align-items: center;
+}
+
+.hotelimage2 > div:nth-child(1) {
+  width: 23%;
+  justify-content: space-between;
+}
+
+.hotelimage2 > div img {
+  border-radius: 10px;
+}
+
+.hotelimage2 > div:nth-child(2) {
+  width: 15%;
+  justify-content: space-between;
+}
+
+/* CSS for each .hotelimage2 element */
+/* .hotelimage2 {
+  display: flex;    
+} */
+/* CSS for the button */
+.hotelimage2 button {
+  background-color: #0074cc;
+  /* Button background color */
+  color: #fff;
+  /* Button text color */
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+/* Optional: Adding spacing or styles as needed */
+.hotelimage2 img {
+  /* Center the image horizontally */
+}
+
+/* Optional: Styling the text or other elements inside .hotelimage2 */
+.hotelimage2 span {
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+/*# sourceMappingURL=hotel.css.map */
